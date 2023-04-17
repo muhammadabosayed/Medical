@@ -1,0 +1,17 @@
+.cardIcon,.cardIcon .iconDoc{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.cardIcon .iconDoc{
+color: var(--main-color);
+}
+.cardIcon h2{
+  color: var(--text-color);
+  font-weight: 700;
+
+}
+

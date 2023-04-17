@@ -1,0 +1,174 @@
+
+nav{
+  border-bottom: 2px solid var(--main-color);
+  margin-bottom: 2px;
+  box-shadow: 0 0 10px var(--main-color);
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+    
+}
+
+
+.navbar-brand{
+  width: 12%;
+}
+.navbar-brand img{
+  width: 70px;
+
+}
+.navbar-nav a{
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: auto 5px;
+  transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+  -moz-transition: var(--transition-time);
+  -ms-transition: var(--transition-time);
+  -o-transition: var(--transition-time);
+}
+
+.navbar-nav .active,.navbar-nav a:hover{
+  color: var(--sub-color) !important;
+}
+.nav .btn-contact{
+  opacity: .9;
+  width: 165px;
+  background: var(--main-color) ;
+  color: var(--white-color);
+  font-size:20px;
+  transition: var(--transition-time);
+  border-radius: var(--radius-size);
+  -webkit-border-radius: var(--radius-size);
+  -moz-border-radius: var(--radius-size);
+  -ms-border-radius: var(--radius-size);
+  -o-border-radius: var(--radius-size);
+  -webkit-transition: var(--transition-time);
+  -moz-transition: var(--transition-time);
+  -ms-transition: var(--transition-time);
+  -o-transition: var(--transition-time);
+}
+nav .btn-contact:hover{
+  opacity: 1;
+
+
+}
+.nav .btn-contact{
+
+  display: block;
+width: 160px !important;
+  margin: 15px auto;
+}
+
+
+.navbar-nav .dropdown-menu{
+  border: none;
+  box-shadow: 0 0 10px var(--main-color);
+  border: 1px solid var(--main-color);
+  width: 220px;
+  transition: var(--transition-time);
+  -webkit-transition: var(--transition-time);
+  -moz-transition: var(--transition-time);
+  -ms-transition: var(--transition-time);
+  -o-transition: var(--transition-time);
+}
+.navbar-nav .dropdown-menu .dropdown-item{
+  position: relative;
+  width: 90%;
+  margin-bottom: 5px;
+  border-radius: var(--radius-size);
+  -webkit-border-radius: var(--radius-size);
+  -moz-border-radius: var(--radius-size);
+  -ms-border-radius: var(--radius-size);
+  -o-border-radius: var(--radius-size);
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+  margin-left: 15px;
+}
+.navbar-nav .dropdown-menu .dropdown-item::after{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-color);
+  width: 0%;
+  height: 1.5px;
+  transition: var(--transition-time);
+  border-radius: var(--radius-size);
+  -webkit-border-radius: var(--radius-size);
+  -moz-border-radius: var(--radius-size);
+  -ms-border-radius: var(--radius-size);
+  -o-border-radius: var(--radius-size);
+  -webkit-transition: var(--transition-time);
+  -moz-transition: var(--transition-time);
+  -ms-transition: var(--transition-time);
+  -o-transition: var(--transition-time);
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover::after{
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    background-color: #7a7ef2ed;
+    box-shadow: 0 0 5px #7f80b5ed;
+  }
+  .navbar-toggler:focus {
+
+    box-shadow: 0 0 0;
+  }
+  .navbar-nav .dropdown-menu{
+  
+    width: 100%;
+  
+  }
+  .navbar-nav .dropdown-menu .dropdown-item{
+    
+    width: 96.5%;}
+    .navbar-nav .dropdown-menu .dropdown-item:hover{
+      margin-left: auto;
+    }
+    .navbar-nav .dropdown-menu .dropdown-item:hover::after{
+      width: 0%;
+    }
+  .navbar-nav a{
+    border-bottom: 1px solid var(--main-color);
+    text-align: center;
+    background-color: #ccc;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav .btn-contact{
+
+  display: block;
+width: fit-content !important;
+  margin: 15px auto;
+}
+
+
+
+
+
+
+
+[type=button]:not(:disabled) {
+    cursor: pointer;
+    width: 60px !important;
+}
+
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    background-color: #7a7ef2ed;
+    box-shadow: none;
+    width: 60px ;
+}
+}

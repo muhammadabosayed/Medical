@@ -1,0 +1,43 @@
+footer{
+  background: #f6f6f6;
+
+}
+footer h4{
+  color: var(--text-color);
+  font-weight: 700;
+}
+.icon-social{
+  color: var(--text-color);
+}
+.icon-social:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .7s;
+  -webkit-transition: all .7s;
+  -moz-transition: all .7s;
+  -ms-transition: all .7s;
+  -o-transition: all .7s;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+footer h6{
+  color: var(--sub-color);
+  font-weight: 700;
+  font-size: 20px;
+}
+footer span{
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 22px;
+}
+.copyright {
+  font-size: 25px;
+border-top: 1px solid var(--text-color);
+color: var(--text-color);
+font-weight: 600;
+}
+.copyright span{
+  color: var(--sub-color);
+}

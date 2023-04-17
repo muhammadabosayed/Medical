@@ -1,0 +1,13 @@
+.contentContact{
+  border: 1px solid #ddd;
+  background-image: url("../../images/8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

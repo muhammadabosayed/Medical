@@ -1,0 +1,76 @@
+
+
+.image-about img{
+   width: 100%;
+   border-radius: 15px 1px 15px 15px;
+   -webkit-border-radius: 15px 1px 15px 15px;
+   -moz-border-radius: 15px 1px 15px 15px;
+   -ms-border-radius: 15px 1px 15px 15px;
+   -o-border-radius: 15px 1px 15px 15px;
+}
+
+.numExp{
+  border: 1px solid var(--main-color);
+  box-shadow: -5px -5px var(--main-color);
+  border-radius: 20px 20px 2px 20px;
+  -webkit-border-radius: 20px 20px 2px 20px;
+  -moz-border-radius: 20px 20px 2px 20px;
+  -ms-border-radius: 20px 20px 2px 20px;
+  -o-border-radius: 20px 20px 2px 20px;
+}
+.image-about .number{
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.image-about .experience{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-color);
+
+}
+.about-us h4{
+  color: var(--sub-color);
+  font-weight: 500;
+}
+.about-us h2{
+  color: var(--text-color);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.about-us p{
+  color: rgb(95, 95, 95);
+  font-size: 20px;
+  text-transform: capitalize;
+
+}
+
+.text-icon{
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  margin: 5px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.text-icon :last-child{
+  color: var(--text-color);
+  font-size: 20px;
+}
+.text-icon :first-child{
+  color: var(--sub-color);
+
+}
+button{
+  width: 100% !important;
+  background: var(--sub-color);
+  color: var(--white-color);
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+}
